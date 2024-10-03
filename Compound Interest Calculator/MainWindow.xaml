@@ -1,0 +1,223 @@
+﻿<Window x:Class="Compound_Interest_Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Compound_Interest_Calculator"
+        mc:Ignorable="d"
+        Title="Compound Calculator"
+        Height="600" Width="350"
+        MinHeight="600" MinWidth="350">
+
+    <Window.Resources>
+        <Style TargetType="TextBox">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border x:Name="border" 
+                                Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="2"
+                                CornerRadius="5">
+                            <ScrollViewer x:Name="PART_ContentHost"
+                                Padding="10,0,0,0"
+                                VerticalAlignment="Center"
+                                Margin="0"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsEnabled" Value="False">
+                                <Setter TargetName="border" Property="Background" Value="{DynamicResource {x:Static SystemColors.ControlBrushKey}}"/>
+                                <Setter TargetName="border" Property="BorderBrush" Value="{DynamicResource {x:Static SystemColors.ControlDarkBrushKey}}"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style TargetType="Button">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="border"
+                                Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="2"
+                                CornerRadius="5">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="#304f2a"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="#3D6734"/>
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="False">
+                                <Setter TargetName="border" Property="Background" Value="#CCCCCC"/>
+                                <Setter TargetName="border" Property="BorderBrush" Value="#3D6734"/>
+                                <Setter Property="Foreground" Value="#888888"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Background" Value="#3D6734"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Height" Value="35"/>
+            <Setter Property="Width" Value="100"/>
+        </Style>
+
+        <SolidColorBrush x:Key="main" Color="#3D6734"/>
+        <SolidColorBrush x:Key="secondery" Color="#3D6734"/>
+    </Window.Resources>
+
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="15px"/>
+            <ColumnDefinition Width="80*"/>
+            <ColumnDefinition Width="15px"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Text="Compound Calculator"
+                   Grid.Column="1"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Top"
+                   FontSize="21"
+                   FontWeight="Bold"
+                   Margin="0,20,0,0"
+                   Foreground="{StaticResource main}"/>
+
+        <StackPanel HorizontalAlignment="Stretch"
+                    Grid.Column="1"
+                    VerticalAlignment="Top"
+                    Margin="0,70,0,0">
+
+            <TextBox x:Name="InitialDeposit"
+                     Text="Initial deposit"
+                     Margin="0,10"
+                     Height="35"
+                     FontSize="14"
+                     BorderBrush="{StaticResource secondery}" 
+                     BorderThickness="2"
+                     Foreground="{StaticResource secondery}"
+                     GotFocus="RemovePlaceholder"
+                     LostFocus="AddPlaceholder"/>
+
+            <TextBox x:Name="MonthlyDeposit" 
+                     Text="Monthly deposit" 
+                     Margin="0,10"
+                     Height="35"
+                     FontSize="14"
+                     BorderBrush="{StaticResource secondery}" 
+                     BorderThickness="2"
+                     Foreground="{StaticResource secondery}"
+                     GotFocus="RemovePlaceholder"
+                     LostFocus="AddPlaceholder"/>
+
+            <TextBox x:Name="AnnualInterest" 
+                     Text="Annual interest" 
+                     Margin="0,10"
+                     Height="35"
+                     FontSize="14"
+                     BorderBrush="{StaticResource secondery}" 
+                     BorderThickness="2"
+                     Foreground="{StaticResource secondery}"
+                     GotFocus="RemovePlaceholder"
+                     LostFocus="AddPlaceholder"/>
+
+            <TextBox x:Name="YearsOfInvestment" 
+                     Text="Years of investment" 
+                     Margin="0,10"
+                     Height="35"
+                     FontSize="14"
+                     BorderBrush="{StaticResource secondery}" 
+                     BorderThickness="2"
+                     Foreground="{StaticResource secondery}"
+                     GotFocus="RemovePlaceholder"
+                     LostFocus="AddPlaceholder"/>
+        </StackPanel>
+
+        <Button Content="Calculate"
+                VerticalAlignment="Top"
+                HorizontalAlignment="Left"
+                Margin="13,300,0,0"
+                Width="100" Height="35"
+                Background="{StaticResource main}"
+                Foreground="White"
+                FontSize="14"
+                BorderBrush="Transparent"
+                FontWeight="Bold"
+                Click="CalculateButton_Click" Grid.ColumnSpan="2"/>
+
+        <Button Content="Reset"
+                Grid.Column="1"
+                VerticalAlignment="Top"
+                HorizontalAlignment="Right"
+                Margin="0,300,0,0"
+                Width="100" Height="35"
+                Background="White"
+                Foreground="{StaticResource main}"
+                BorderBrush="{StaticResource main}"
+                BorderThickness="2"
+                FontSize="14"
+                FontWeight="Bold"
+                Click="ResetButton_Click"/>
+
+        <StackPanel Grid.Column="1" 
+            HorizontalAlignment="Center"
+            VerticalAlignment="Top"
+            Margin="0,400,0,0"
+            Visibility="Visible"
+            Opacity="100"
+            Focusable="False"
+            Width="auto">
+
+            <RichTextBox Name="TotalDepositTextBlock"
+                 IsReadOnly="True"
+                 BorderThickness="0"
+                 Background="Transparent"
+                 Foreground="{StaticResource main}"
+                 FontSize="14"
+                 FontWeight="Bold"
+                 Margin="0,5"
+                 FocusVisualStyle="{x:Null}">
+                <FlowDocument>
+                    <Paragraph TextAlignment="Left">Total deposit: 0.00</Paragraph>
+                </FlowDocument>
+            </RichTextBox>
+
+            <RichTextBox Name="ProfitTextBlock"
+                 IsReadOnly="True"
+                 BorderThickness="0"
+                 Background="Transparent"
+                 Foreground="{StaticResource main}"
+                 FontSize="14"
+                 FontWeight="Bold"
+                 Margin="0,5"
+                 FocusVisualStyle="{x:Null}">
+                <FlowDocument>
+                    <Paragraph TextAlignment="Left">Profit: 0.00</Paragraph>
+                </FlowDocument>
+            </RichTextBox>
+
+            <RichTextBox Name="AccumulatedInvestmentTextBlock"
+                 IsReadOnly="True"
+                 BorderThickness="0"
+                 Background="Transparent"
+                 Foreground="{StaticResource main}"
+                 FontSize="14"
+                 FontWeight="Bold"
+                 Margin="0,5"
+                 FocusVisualStyle="{x:Null}">
+                <FlowDocument>
+                    <Paragraph TextAlignment="Left">Accumulated investment: 0.00</Paragraph>
+                </FlowDocument>
+            </RichTextBox>
+        </StackPanel>
+
+    </Grid>
+</Window>
