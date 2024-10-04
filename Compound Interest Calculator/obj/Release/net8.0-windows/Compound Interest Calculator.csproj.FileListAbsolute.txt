@@ -1,0 +1,41 @@
+C:\Users\Shalev\source\repos\Compound Interest Calculator\Compound Interest Calculator\bin\Release\net8.0-windows\Compound Interest Calculator.exe
+C:\Users\Shalev\source\repos\Compound Interest Calculator\Compound Interest Calculator\bin\Release\net8.0-windows\Compound Interest Calculator.deps.json
+C:\Users\Shalev\source\repos\Compound Interest Calculator\Compound Interest Calculator\bin\Release\net8.0-windows\Compound Interest Calculator.runtimeconfig.json
+C:\Users\Shalev\source\repos\Compound Interest Calculator\Compound Interest Calculator\bin\Release\net8.0-windows\Compound Interest Calculator.dll
+C:\Users\Shalev\source\repos\Compound Interest Calculator\Compound Interest Calculator\bin\Release\net8.0-windows\Compound Interest Calculator.pdb
+C:\Users\Shalev\source\repos\Compound Interest Calculator\Compound Interest Calculator\obj\Release\net8.0-windows\MainWindow.g.cs
+C:\Users\Shalev\source\repos\Compound Interest Calculator\Compound Interest Calculator\obj\Release\net8.0-windows\App.g.cs
+C:\Users\Shalev\source\repos\Compound Interest Calculator\Compound Interest Calculator\obj\Release\net8.0-windows\Compound Interest Calculator_MarkupCompile.cache
+C:\Users\Shalev\source\repos\Compound Interest Calculator\Compound Interest Calculator\obj\Release\net8.0-windows\Compound Interest Calculator_MarkupCompile.lref
+C:\Users\Shalev\source\repos\Compound Interest Calculator\Compound Interest Calculator\obj\Release\net8.0-windows\MainWindow.baml
+C:\Users\Shalev\source\repos\Compound Interest Calculator\Compound Interest Calculator\obj\Release\net8.0-windows\Compound Interest Calculator.g.resources
+C:\Users\Shalev\source\repos\Compound Interest Calculator\Compound Interest Calculator\obj\Release\net8.0-windows\Compound Interest Calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shalev\source\repos\Compound Interest Calculator\Compound Interest Calculator\obj\Release\net8.0-windows\Compound Interest Calculator.AssemblyInfoInputs.cache
+C:\Users\Shalev\source\repos\Compound Interest Calculator\Compound Interest Calculator\obj\Release\net8.0-windows\Compound Interest Calculator.AssemblyInfo.cs
+C:\Users\Shalev\source\repos\Compound Interest Calculator\Compound Interest Calculator\obj\Release\net8.0-windows\Compound Interest Calculator.csproj.CoreCompileInputs.cache
+C:\Users\Shalev\source\repos\Compound Interest Calculator\Compound Interest Calculator\obj\Release\net8.0-windows\Compound Interest Calculator.dll
+C:\Users\Shalev\source\repos\Compound Interest Calculator\Compound Interest Calculator\obj\Release\net8.0-windows\refint\Compound Interest Calculator.dll
+C:\Users\Shalev\source\repos\Compound Interest Calculator\Compound Interest Calculator\obj\Release\net8.0-windows\Compound Interest Calculator.pdb
+C:\Users\Shalev\source\repos\Compound Interest Calculator\Compound Interest Calculator\obj\Release\net8.0-windows\Compound Interest Calculator.genruntimeconfig.cache
+C:\Users\Shalev\source\repos\Compound Interest Calculator\Compound Interest Calculator\obj\Release\net8.0-windows\ref\Compound Interest Calculator.dll
+D:\New folder\Programming\GitHub\Compound Interest Calculator\Compound Interest Calculator\bin\Release\net8.0-windows\Compound Interest Calculator.exe
+D:\New folder\Programming\GitHub\Compound Interest Calculator\Compound Interest Calculator\bin\Release\net8.0-windows\Compound Interest Calculator.deps.json
+D:\New folder\Programming\GitHub\Compound Interest Calculator\Compound Interest Calculator\bin\Release\net8.0-windows\Compound Interest Calculator.runtimeconfig.json
+D:\New folder\Programming\GitHub\Compound Interest Calculator\Compound Interest Calculator\bin\Release\net8.0-windows\Compound Interest Calculator.dll
+D:\New folder\Programming\GitHub\Compound Interest Calculator\Compound Interest Calculator\bin\Release\net8.0-windows\Compound Interest Calculator.pdb
+D:\New folder\Programming\GitHub\Compound Interest Calculator\Compound Interest Calculator\obj\Release\net8.0-windows\MainWindow.g.cs
+D:\New folder\Programming\GitHub\Compound Interest Calculator\Compound Interest Calculator\obj\Release\net8.0-windows\App.g.cs
+D:\New folder\Programming\GitHub\Compound Interest Calculator\Compound Interest Calculator\obj\Release\net8.0-windows\Compound Interest Calculator_MarkupCompile.cache
+D:\New folder\Programming\GitHub\Compound Interest Calculator\Compound Interest Calculator\obj\Release\net8.0-windows\Compound Interest Calculator_MarkupCompile.lref
+D:\New folder\Programming\GitHub\Compound Interest Calculator\Compound Interest Calculator\obj\Release\net8.0-windows\MainWindow.baml
+D:\New folder\Programming\GitHub\Compound Interest Calculator\Compound Interest Calculator\obj\Release\net8.0-windows\Compound Interest Calculator.g.resources
+D:\New folder\Programming\GitHub\Compound Interest Calculator\Compound Interest Calculator\obj\Release\net8.0-windows\Compound Interest Calculator.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder\Programming\GitHub\Compound Interest Calculator\Compound Interest Calculator\obj\Release\net8.0-windows\Compound Interest Calculator.AssemblyInfoInputs.cache
+D:\New folder\Programming\GitHub\Compound Interest Calculator\Compound Interest Calculator\obj\Release\net8.0-windows\Compound Interest Calculator.AssemblyInfo.cs
+D:\New folder\Programming\GitHub\Compound Interest Calculator\Compound Interest Calculator\obj\Release\net8.0-windows\Compound Interest Calculator.csproj.CoreCompileInputs.cache
+D:\New folder\Programming\GitHub\Compound Interest Calculator\Compound Interest Calculator\obj\Release\net8.0-windows\Compound Interest Calculator.dll
+D:\New folder\Programming\GitHub\Compound Interest Calculator\Compound Interest Calculator\obj\Release\net8.0-windows\refint\Compound Interest Calculator.dll
+D:\New folder\Programming\GitHub\Compound Interest Calculator\Compound Interest Calculator\obj\Release\net8.0-windows\Compound Interest Calculator.pdb
+D:\New folder\Programming\GitHub\Compound Interest Calculator\Compound Interest Calculator\obj\Release\net8.0-windows\Compound Interest Calculator.genruntimeconfig.cache
+D:\New folder\Programming\GitHub\Compound Interest Calculator\Compound Interest Calculator\obj\Release\net8.0-windows\ref\Compound Interest Calculator.dll
+D:\New folder\Programming\GitHub\Compound Interest Calculator\Compound Interest Calculator\obj\Release\net8.0-windows\Compound Interest Calculator.sourcelink.json

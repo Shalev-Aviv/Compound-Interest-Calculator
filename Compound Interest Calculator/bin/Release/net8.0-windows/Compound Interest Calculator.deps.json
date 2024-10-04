@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Compound Interest Calculator/1.0.0": {
+        "runtime": {
+          "Compound Interest Calculator.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Compound Interest Calculator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

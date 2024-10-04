@@ -1,0 +1,20 @@
+C:\Users\Shalev\source\repos\Compound Interest Calculator\Compound Interest Calculator\bin\Debug\net8.0-windows\Compound Interest Calculator.exe
+C:\Users\Shalev\source\repos\Compound Interest Calculator\Compound Interest Calculator\bin\Debug\net8.0-windows\Compound Interest Calculator.deps.json
+C:\Users\Shalev\source\repos\Compound Interest Calculator\Compound Interest Calculator\bin\Debug\net8.0-windows\Compound Interest Calculator.runtimeconfig.json
+C:\Users\Shalev\source\repos\Compound Interest Calculator\Compound Interest Calculator\bin\Debug\net8.0-windows\Compound Interest Calculator.dll
+C:\Users\Shalev\source\repos\Compound Interest Calculator\Compound Interest Calculator\bin\Debug\net8.0-windows\Compound Interest Calculator.pdb
+C:\Users\Shalev\source\repos\Compound Interest Calculator\Compound Interest Calculator\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Shalev\source\repos\Compound Interest Calculator\Compound Interest Calculator\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Shalev\source\repos\Compound Interest Calculator\Compound Interest Calculator\obj\Debug\net8.0-windows\Compound Interest Calculator_MarkupCompile.cache
+C:\Users\Shalev\source\repos\Compound Interest Calculator\Compound Interest Calculator\obj\Debug\net8.0-windows\Compound Interest Calculator_MarkupCompile.lref
+C:\Users\Shalev\source\repos\Compound Interest Calculator\Compound Interest Calculator\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Shalev\source\repos\Compound Interest Calculator\Compound Interest Calculator\obj\Debug\net8.0-windows\Compound Interest Calculator.g.resources
+C:\Users\Shalev\source\repos\Compound Interest Calculator\Compound Interest Calculator\obj\Debug\net8.0-windows\Compound Interest Calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shalev\source\repos\Compound Interest Calculator\Compound Interest Calculator\obj\Debug\net8.0-windows\Compound Interest Calculator.AssemblyInfoInputs.cache
+C:\Users\Shalev\source\repos\Compound Interest Calculator\Compound Interest Calculator\obj\Debug\net8.0-windows\Compound Interest Calculator.AssemblyInfo.cs
+C:\Users\Shalev\source\repos\Compound Interest Calculator\Compound Interest Calculator\obj\Debug\net8.0-windows\Compound Interest Calculator.csproj.CoreCompileInputs.cache
+C:\Users\Shalev\source\repos\Compound Interest Calculator\Compound Interest Calculator\obj\Debug\net8.0-windows\Compound Interest Calculator.dll
+C:\Users\Shalev\source\repos\Compound Interest Calculator\Compound Interest Calculator\obj\Debug\net8.0-windows\refint\Compound Interest Calculator.dll
+C:\Users\Shalev\source\repos\Compound Interest Calculator\Compound Interest Calculator\obj\Debug\net8.0-windows\Compound Interest Calculator.pdb
+C:\Users\Shalev\source\repos\Compound Interest Calculator\Compound Interest Calculator\obj\Debug\net8.0-windows\Compound Interest Calculator.genruntimeconfig.cache
+C:\Users\Shalev\source\repos\Compound Interest Calculator\Compound Interest Calculator\obj\Debug\net8.0-windows\ref\Compound Interest Calculator.dll
